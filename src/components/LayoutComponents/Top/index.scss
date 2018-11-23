@@ -1,0 +1,29 @@
+.top {
+    background-color: yellow;
+    position: relative;
+    height: 56px;
+    &__left {
+        display: inline-block;
+        width: 300px;
+        height: 56px;
+        border: 1px solid;
+    }
+    &__right {
+        position: absolute;
+        right: 0;
+        display: inline-block;
+        width: 300px;
+        height: 56px;
+        border: 1px solid;
+    }
+    &__search {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        display: inline-block;
+        width: 500px;
+        height: 56px;
+        border: 1px solid;
+    }
+}

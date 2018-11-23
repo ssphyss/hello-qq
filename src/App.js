@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import Top from './components/LayoutComponents/Top';
 
 class App extends Component {
   render() {
     return (
       <div>
-        QQ
+        <Top />
       </div>
     );
   }
